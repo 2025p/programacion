@@ -21,10 +21,10 @@ if "telefono" not in Informacion_personal:
     del Informacion_personal["edad"]
     # Imprimir el dicionario final
     print(Informacion_personal)
-    print("-" * 30) # Imprime la lista separadora
+    print("-" * 20) # Imprime la lista separadora
 
     for clave, valor in Informacion_personal . items():
-        print(f"{clave:<15}: {valor}") # Formatea la salida en columnas
+        print(f"{clave:<10}: {valor}") # Formatea la salida en columnas
 
        
 
